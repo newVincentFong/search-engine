@@ -11,3 +11,5 @@
 * 目标地址首页 `bilibili` 还是HTTPS链接，所以需要构造SSL证书类，同理网上复制一段能用的就完事
 * 注意要给请求添加一下 `User-Agent`
 * `Jsoup` 解析HTML
+* 由于B站的首页是懒加载，所以转用Selenium作为Client，它可以执行模拟页面下拉的脚本
+* Maven安装Selenium，电脑安装对应版本的浏览器Driver
